@@ -7,4 +7,6 @@ Please read through this document before submitting any issues or pull requests 
 information to effectively respond to your bug report or contribution.
 
 
-## Reporting 
+## Reporting Bugs/Feature Requests
+
+We welcome 
