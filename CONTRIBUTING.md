@@ -9,4 +9,4 @@ information to effectively respond to your bug report or contribution.
 
 ## Reporting Bugs/Feature Requests
 
-We welcome 
+We welcome you to use the GitHub issue tracker 
