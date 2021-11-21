@@ -14,4 +14,4 @@ We welcome you to use the GitHub issue tracker to report bugs or suggest feature
 When filing an issue, please check existing open, or recently closed, issues to make sure somebody else hasn't already
 reported the issue. Please try to include as much information as you can. Details like these are incredibly useful:
 
-* A 
+* A reproducible test case or s
