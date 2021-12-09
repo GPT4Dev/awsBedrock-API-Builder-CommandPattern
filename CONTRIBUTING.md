@@ -15,4 +15,5 @@ When filing an issue, please check existing open, or recently closed, issues to 
 reported the issue. Please try to include as much information as you can. Details like these are incredibly useful:
 
 * A reproducible test case or series of steps
-* The version of our 
+* The version of our code being used
+* Any modification
