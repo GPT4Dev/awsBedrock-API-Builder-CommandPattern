@@ -20,4 +20,5 @@ reported the issue. Please try to include as much information as you can. Detail
 * Anything unusual about your environment or deployment
 
 
-## Contrib
+## Contributing via Pull Requests
+Contributio
