@@ -24,4 +24,4 @@ reported the issue. Please try to include as much information as you can. Detail
 Contributions via pull requests are much appreciated. Before sending us a pull request, please ensure that:
 
 1. You are working against the latest source on the *main* branch.
-2. You check existing open, and recently
+2. You check existing open, and recently merged, pull requests to make s
