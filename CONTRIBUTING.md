@@ -29,4 +29,5 @@ Contributions via pull requests are much appreciated. Before sending us a pull r
 
 To send us a pull request, please:
 
-1. Fork the reposito
+1. Fork the repository.
+2. Modify the source; ple
