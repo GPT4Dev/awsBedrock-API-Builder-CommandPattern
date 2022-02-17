@@ -34,4 +34,4 @@ To send us a pull request, please:
 3. Ensure local tests pass.
 4. Commit to your fork using clear commit messages.
 5. Send us a pull request, answering any default questions in the pull request interface.
-6. Pay attention to any automated CI failures reported in the pull request, and st
+6. Pay attention to any automated CI failures reported in the pull request, and stay involved in the conversati
