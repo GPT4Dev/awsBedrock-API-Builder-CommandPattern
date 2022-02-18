@@ -40,4 +40,5 @@ GitHub provides additional document on [forking a repository](https://help.githu
 [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
 
 
-## Finding cont
+## Finding contributions to work on
+Looking at 
