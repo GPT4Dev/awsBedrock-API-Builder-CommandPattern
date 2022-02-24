@@ -45,4 +45,4 @@ Looking at the existing issues is a great way to find something to contribute on
 
 
 ## Code of Conduct
-This project has a
+This project has adopted the [Amazon Open Source Code
