@@ -46,4 +46,4 @@ Looking at the existing issues is a great way to find something to contribute on
 
 ## Code of Conduct
 This project has adopted the [Amazon Open Source Code of Conduct](https://aws.github.io/code-of-conduct).
-For more information see the [C
+For more information see the [Code of Conduct FAQ](https://aw
