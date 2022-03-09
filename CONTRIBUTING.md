@@ -50,4 +50,5 @@ For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of
 opensource-codeofconduct@amazon.com with any additional questions or comments.
 
 
-## Secur
+## Security issue notifications
+If you dis
