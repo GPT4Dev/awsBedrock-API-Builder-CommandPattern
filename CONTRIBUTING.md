@@ -51,4 +51,4 @@ opensource-codeofconduct@amazon.com with any additional questions or comments.
 
 
 ## Security issue notifications
-If you dis
+If you discover a potential security issue in
