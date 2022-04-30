@@ -12,9 +12,9 @@ import software.amazon.awssdk.services.bedrockruntime.BedrockRuntimeClient;
 import software.amazon.awssdk.services.bedrockruntime.model.InvokeModelRequest;
 import software.amazon.awssdk.services.bedrockruntime.model.InvokeModelResponse;
 
-public class AI21LabsTextGeneration {
+public class AmazonTitanTextGeneration {
 
-    private static final String MODEL_ID = "ai21.j2-mid-v1";
+    private static final String MODEL_ID = "amazon.titan-tg1-large";
 
     private static final String PROMPT = """
         Extract the band name from the contract:
@@ -29,32 +29,8 @@ public class AI21LabsTextGeneration {
     public static void main(String... args) throws Exception {
 
         try (BedrockRuntimeClient bedrockClient = BedrockRuntimeClient.builder()
-            .region(Region.US_EAST_1)
-            .credentialsProvider(ProfileCredentialsProvider.create())
-            .build()) {
+                .region(Region.US_EAST_1)
+                .credentialsProvider(ProfileCredentialsProvider.create())
+                .build()) {
 
             String bedrockBody = BedrockRequestBody.builder()
-                .withModelId(MODEL_ID)
-                .withPrompt(PROMPT)
-                .build();
-
-            InvokeModelRequest invokeModelRequest = InvokeModelRequest.builder()
-                .modelId(MODEL_ID)
-                .body(SdkBytes.fromString(bedrockBody, Charset.defaultCharset()))
-                .build();
-
-            InvokeModelResponse invokeModelResponse = bedrockClient.invokeModel(invokeModelRequest);
-            JSONObject responseAsJson = new JSONObject(invokeModelResponse.body().asUtf8String());
-
-            System.out.println("🤖 Response: ");
-            System.out.println(responseAsJson
-                .getJSONArray("completions")
-                .getJSONObject(0)
-                .getJSONObject("data")
-                .getString("text"));
-
-        }
-
-    }
-    
-}
