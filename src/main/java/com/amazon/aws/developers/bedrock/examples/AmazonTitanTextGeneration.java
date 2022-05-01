@@ -34,3 +34,26 @@ public class AmazonTitanTextGeneration {
                 .build()) {
 
             String bedrockBody = BedrockRequestBody.builder()
+                    .withModelId(MODEL_ID)
+                    .withPrompt(PROMPT)
+                    .build();
+
+            InvokeModelRequest invokeModelRequest = InvokeModelRequest.builder()
+                    .modelId(MODEL_ID)
+                    .body(SdkBytes.fromString(bedrockBody, Charset.defaultCharset()))
+                    .build();
+
+            InvokeModelResponse invokeModelResponse = bedrockClient.invokeModel(invokeModelRequest);
+            JSONObject responseAsJson = new JSONObject(invokeModelResponse.body().asUtf8String());
+
+            System.out.println("🤖 Response: ");
+            System.out.println(responseAsJson
+                    .getJSONArray("results")
+                    .getJSONObject(0)
+                    .getString("outputText"));
+
+        }
+
+    }
+
+}
