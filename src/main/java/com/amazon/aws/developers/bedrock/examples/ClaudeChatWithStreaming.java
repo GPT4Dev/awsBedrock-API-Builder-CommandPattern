@@ -7,4 +7,4 @@ import java.util.concurrent.Executors;
 import org.json.JSONObject;
 
 import com.amazon.aws.developers.bedrock.util.BedrockRequestBody;
-im
+import software.amazon.awssdk.auth.credential
