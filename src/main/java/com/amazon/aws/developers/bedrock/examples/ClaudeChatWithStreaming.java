@@ -10,3 +10,4 @@ import com.amazon.aws.developers.bedrock.util.BedrockRequestBody;
 import software.amazon.awssdk.auth.credentials.ProfileCredentialsProvider;
 import software.amazon.awssdk.core.SdkBytes;
 import software.amazon.awssdk.regions.Region;
+import software.amazon.awssdk.service
