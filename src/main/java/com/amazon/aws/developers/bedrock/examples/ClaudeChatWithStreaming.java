@@ -13,4 +13,4 @@ import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.bedrockruntime.BedrockRuntimeAsyncClient;
 import software.amazon.awssdk.services.bedrockruntime.model.InvokeModelWithResponseStreamRequest;
 import software.amazon.awssdk.services.bedrockruntime.model.InvokeModelWithResponseStreamResponseHandler;
-import software.amaz
+import software.amazon.awssdk.services.bedrockruntime
