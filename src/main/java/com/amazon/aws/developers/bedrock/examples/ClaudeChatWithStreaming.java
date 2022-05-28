@@ -15,4 +15,6 @@ import software.amazon.awssdk.services.bedrockruntime.model.InvokeModelWithRespo
 import software.amazon.awssdk.services.bedrockruntime.model.InvokeModelWithResponseStreamResponseHandler;
 import software.amazon.awssdk.services.bedrockruntime.model.PayloadPart;
 
-public class Clau
+public class ClaudeChatWithStreaming {
+
+    private
