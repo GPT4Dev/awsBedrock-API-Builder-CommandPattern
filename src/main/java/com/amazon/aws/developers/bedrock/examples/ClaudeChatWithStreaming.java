@@ -17,4 +17,6 @@ import software.amazon.awssdk.services.bedrockruntime.model.PayloadPart;
 
 public class ClaudeChatWithStreaming {
 
-    private static final String MODEL
+    private static final String MODEL_ID = "anthropic.claude-v2";
+
+    pri
