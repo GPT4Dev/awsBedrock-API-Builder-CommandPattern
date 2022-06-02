@@ -17,4 +17,4 @@ import software.amazon.awssdk.services.bedrockruntime.model.PayloadPart;
 
 public class ClaudeChatWithStreaming {
 
-    private
+    private static final String MODEL
