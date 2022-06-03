@@ -19,4 +19,4 @@ public class ClaudeChatWithStreaming {
 
     private static final String MODEL_ID = "anthropic.claude-v2";
 
-    pri
+    private static final String PROMPT =
