@@ -19,4 +19,5 @@ public class ClaudeChatWithStreaming {
 
     private static final String MODEL_ID = "anthropic.claude-v2";
 
-    private static final String PROMPT =
+    private static final String PROMPT = """
+        Generative AI r
