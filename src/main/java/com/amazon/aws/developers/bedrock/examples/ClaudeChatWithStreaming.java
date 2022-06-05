@@ -20,4 +20,5 @@ public class ClaudeChatWithStreaming {
     private static final String MODEL_ID = "anthropic.claude-v2";
 
     private static final String PROMPT = """
-        Generative AI refers to artificial intelligence systems that are capable of generatin
+        Generative AI refers to artificial intelligence systems that are capable of generating
+        novel content such as
