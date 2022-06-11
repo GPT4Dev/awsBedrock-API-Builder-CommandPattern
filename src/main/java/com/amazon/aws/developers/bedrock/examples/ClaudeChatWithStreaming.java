@@ -21,4 +21,4 @@ public class ClaudeChatWithStreaming {
 
     private static final String PROMPT = """
         Generative AI refers to artificial intelligence systems that are capable of generating
-        novel content such as
+        novel content such as text, images, audio, video, an
