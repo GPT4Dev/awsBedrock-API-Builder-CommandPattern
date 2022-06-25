@@ -26,4 +26,5 @@ public class ClaudeChatWithStreaming {
         are unique and original, not just reproductions or remixes of existing content. Generative
         AI leverages machine learning techniques like neural networks that are trained on large
         datasets to build an understanding of patterns and structures within the data. It then
-        uses that knowledge to generate new artifacts that conform to th
+        uses that knowledge to generate new artifacts that conform to those patterns but are not
+        identical copi
