@@ -36,3 +36,6 @@ public class ClaudeChatWithStreaming {
         high-quality, diverse, and novel content.        
 
         Please create a single short paragraph so that a fiver years old child can understand.
+    """;
+
+    public static void m
