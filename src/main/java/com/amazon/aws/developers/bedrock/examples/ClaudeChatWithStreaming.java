@@ -38,4 +38,6 @@ public class ClaudeChatWithStreaming {
         Please create a single short paragraph so that a fiver years old child can understand.
     """;
 
-    public static void main(String... args) throws Excepti
+    public static void main(String... args) throws Exception {
+
+        final CountDownLatch cou
