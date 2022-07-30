@@ -40,4 +40,6 @@ public class ClaudeChatWithStreaming {
 
     public static void main(String... args) throws Exception {
 
-        final CountDownLatch cou
+        final CountDownLatch countDownLatch = new CountDownLatch(1);
+
+    
