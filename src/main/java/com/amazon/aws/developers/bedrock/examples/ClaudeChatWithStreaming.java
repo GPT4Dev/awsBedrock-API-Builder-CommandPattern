@@ -42,4 +42,4 @@ public class ClaudeChatWithStreaming {
 
         final CountDownLatch countDownLatch = new CountDownLatch(1);
 
-    
+        try (BedrockRuntimeAsyncClient bedrockC
