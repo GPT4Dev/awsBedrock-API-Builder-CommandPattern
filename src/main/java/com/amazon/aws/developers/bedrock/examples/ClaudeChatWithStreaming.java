@@ -44,4 +44,5 @@ public class ClaudeChatWithStreaming {
 
         try (BedrockRuntimeAsyncClient bedrockClient = BedrockRuntimeAsyncClient.builder()
                 .region(Region.US_EAST_1)
-                .credentialsProvider(ProfileCredentialsProvider.
+                .credentialsProvider(ProfileCredentialsProvider.create())
+                .build()) {
