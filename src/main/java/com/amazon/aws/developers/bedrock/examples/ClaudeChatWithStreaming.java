@@ -43,4 +43,5 @@ public class ClaudeChatWithStreaming {
         final CountDownLatch countDownLatch = new CountDownLatch(1);
 
         try (BedrockRuntimeAsyncClient bedrockClient = BedrockRuntimeAsyncClient.builder()
-                .region(Region.
+                .region(Region.US_EAST_1)
+                .creden
