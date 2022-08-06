@@ -46,3 +46,5 @@ public class ClaudeChatWithStreaming {
                 .region(Region.US_EAST_1)
                 .credentialsProvider(ProfileCredentialsProvider.create())
                 .build()) {
+
+            try (var executor =
