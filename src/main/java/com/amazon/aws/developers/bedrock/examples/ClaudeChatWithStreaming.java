@@ -47,4 +47,6 @@ public class ClaudeChatWithStreaming {
                 .credentialsProvider(ProfileCredentialsProvider.create())
                 .build()) {
 
-            try (var executor = Executors.newVirtualThreadPer
+            try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
+
+   
