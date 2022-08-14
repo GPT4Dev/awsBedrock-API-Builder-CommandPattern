@@ -49,4 +49,6 @@ public class ClaudeChatWithStreaming {
 
             try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 
-                executor.su
+                executor.submit(() -> {
+
+                  
