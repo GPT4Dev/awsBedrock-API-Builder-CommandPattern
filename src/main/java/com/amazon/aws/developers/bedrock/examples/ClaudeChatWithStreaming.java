@@ -53,4 +53,5 @@ public class ClaudeChatWithStreaming {
 
                     String bedrockBody = BedrockRequestBody.builder()
                             .withModelId(MODEL_ID)
-              
+                            .withPrompt(PROMPT)
+     
