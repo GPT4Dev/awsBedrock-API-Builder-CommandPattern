@@ -51,4 +51,4 @@ public class ClaudeChatWithStreaming {
 
                 executor.submit(() -> {
 
-                  
+                    String bedrockBody = BedrockRequestBody.build
