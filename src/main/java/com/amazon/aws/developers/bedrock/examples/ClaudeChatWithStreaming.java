@@ -54,4 +54,4 @@ public class ClaudeChatWithStreaming {
                     String bedrockBody = BedrockRequestBody.builder()
                             .withModelId(MODEL_ID)
                             .withPrompt(PROMPT)
-                            
+                            .withInferenceParameter("max_tokens_to_sample", 2048)
