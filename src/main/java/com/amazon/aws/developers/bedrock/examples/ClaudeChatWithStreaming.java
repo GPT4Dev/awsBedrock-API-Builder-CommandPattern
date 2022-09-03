@@ -57,4 +57,5 @@ public class ClaudeChatWithStreaming {
                             .withInferenceParameter("max_tokens_to_sample", 2048)
                             .withInferenceParameter("temperature", 0.5)
                             .withInferenceParameter("top_k", 250)
-                            .withInferencePar
+                            .withInferenceParameter("top_p", 1)
+                    
