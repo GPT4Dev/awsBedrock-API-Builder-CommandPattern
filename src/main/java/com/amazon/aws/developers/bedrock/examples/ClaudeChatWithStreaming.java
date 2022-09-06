@@ -60,4 +60,5 @@ public class ClaudeChatWithStreaming {
                             .withInferenceParameter("top_p", 1)
                             .build();
 
-                    InvokeModelWithResponseStreamRequest invokeModelRequest = InvokeMod
+                    InvokeModelWithResponseStreamRequest invokeModelRequest = InvokeModelWithResponseStreamRequest
+         
