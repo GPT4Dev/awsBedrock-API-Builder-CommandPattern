@@ -62,4 +62,4 @@ public class ClaudeChatWithStreaming {
 
                     InvokeModelWithResponseStreamRequest invokeModelRequest = InvokeModelWithResponseStreamRequest
                             .builder()
-  
+                            .
