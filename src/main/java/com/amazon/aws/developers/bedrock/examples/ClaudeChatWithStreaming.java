@@ -63,4 +63,4 @@ public class ClaudeChatWithStreaming {
                     InvokeModelWithResponseStreamRequest invokeModelRequest = InvokeModelWithResponseStreamRequest
                             .builder()
                             .modelId(MODEL_ID)
-             
+                            .body(SdkBytes
