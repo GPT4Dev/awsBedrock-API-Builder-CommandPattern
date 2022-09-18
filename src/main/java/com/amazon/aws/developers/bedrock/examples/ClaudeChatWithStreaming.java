@@ -64,4 +64,6 @@ public class ClaudeChatWithStreaming {
                             .builder()
                             .modelId(MODEL_ID)
                             .body(SdkBytes.fromString(bedrockBody, Charset.defaultCharset()))
-                    
+                            .build();
+
+                    bedr
