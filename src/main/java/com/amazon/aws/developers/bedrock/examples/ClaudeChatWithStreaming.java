@@ -66,4 +66,5 @@ public class ClaudeChatWithStreaming {
                             .body(SdkBytes.fromString(bedrockBody, Charset.defaultCharset()))
                             .build();
 
-                    bedrockClient.invokeModelWithResp
+                    bedrockClient.invokeModelWithResponseStream(invokeModelRequest,
+     
