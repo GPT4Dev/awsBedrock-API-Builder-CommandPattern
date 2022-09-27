@@ -67,4 +67,5 @@ public class ClaudeChatWithStreaming {
                             .build();
 
                     bedrockClient.invokeModelWithResponseStream(invokeModelRequest,
-                            InvokeModelWithResponseStreamResponseHandler.builder
+                            InvokeModelWithResponseStreamResponseHandler.builder()
+                                    
