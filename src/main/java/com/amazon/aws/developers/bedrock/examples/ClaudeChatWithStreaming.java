@@ -70,4 +70,5 @@ public class ClaudeChatWithStreaming {
                             InvokeModelWithResponseStreamResponseHandler.builder()
                                     .onResponse(response -> {
                                         System.out.println("🤖 Response: ");
-                        
+                                    })
+           
