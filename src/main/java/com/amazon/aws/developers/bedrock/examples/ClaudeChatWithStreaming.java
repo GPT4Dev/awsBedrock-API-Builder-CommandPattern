@@ -71,4 +71,5 @@ public class ClaudeChatWithStreaming {
                                     .onResponse(response -> {
                                         System.out.println("🤖 Response: ");
                                     })
-                                    .s
+                                    .subscriber(eventConsumer -> {
+ 
