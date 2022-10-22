@@ -72,4 +72,4 @@ public class ClaudeChatWithStreaming {
                                         System.out.println("🤖 Response: ");
                                     })
                                     .subscriber(eventConsumer -> {
-                                        eventConsumer.accept(new 
+                                        eventConsumer.accept(new InvokeModelWithResponseStre
