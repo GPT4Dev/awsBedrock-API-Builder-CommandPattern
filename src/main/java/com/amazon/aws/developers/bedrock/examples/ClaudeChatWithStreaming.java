@@ -72,4 +72,5 @@ public class ClaudeChatWithStreaming {
                                         System.out.println("🤖 Response: ");
                                     })
                                     .subscriber(eventConsumer -> {
-                                        eventConsumer.accept(new InvokeModelWithResponseStre
+                                        eventConsumer.accept(new InvokeModelWithResponseStreamResponseHandler.Visitor() {
+   
