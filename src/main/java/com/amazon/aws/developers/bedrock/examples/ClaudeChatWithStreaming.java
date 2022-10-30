@@ -73,4 +73,5 @@ public class ClaudeChatWithStreaming {
                                     })
                                     .subscriber(eventConsumer -> {
                                         eventConsumer.accept(new InvokeModelWithResponseStreamResponseHandler.Visitor() {
-                                            public void visitChunk(Payload
+                                            public void visitChunk(PayloadPart payloadPart) {
+         
