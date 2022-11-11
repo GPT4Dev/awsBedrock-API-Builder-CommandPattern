@@ -75,4 +75,5 @@ public class ClaudeChatWithStreaming {
                                         eventConsumer.accept(new InvokeModelWithResponseStreamResponseHandler.Visitor() {
                                             public void visitChunk(PayloadPart payloadPart) {
                                                 String payloadAsString = payloadPart.bytes().asUtf8String();
-                                                JSONObject payloadAsJson = new JSONObject(payloadAsString)
+                                                JSONObject payloadAsJson = new JSONObject(payloadAsString);
+                                  
