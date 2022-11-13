@@ -77,4 +77,5 @@ public class ClaudeChatWithStreaming {
                                                 String payloadAsString = payloadPart.bytes().asUtf8String();
                                                 JSONObject payloadAsJson = new JSONObject(payloadAsString);
                                                 System.out.print(payloadAsJson.getString("completion"));
-                                 
+                                            }
+                          
