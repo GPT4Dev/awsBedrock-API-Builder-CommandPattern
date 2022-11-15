@@ -80,4 +80,5 @@ public class ClaudeChatWithStreaming {
                                             }
                                         });
                                     })
-                                    .onComple
+                                    .onComplete(() -> {
+                         
