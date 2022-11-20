@@ -81,4 +81,5 @@ public class ClaudeChatWithStreaming {
                                         });
                                     })
                                     .onComplete(() -> {
-                                        System.out.printl
+                                        System.out.println();
+                                  
