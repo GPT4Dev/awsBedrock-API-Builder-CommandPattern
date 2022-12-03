@@ -84,4 +84,6 @@ public class ClaudeChatWithStreaming {
                                         System.out.println();
                                         countDownLatch.countDown();
                                     })
-                     
+                                    .build());
+
+            
