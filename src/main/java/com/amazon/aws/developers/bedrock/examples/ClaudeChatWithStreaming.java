@@ -86,4 +86,6 @@ public class ClaudeChatWithStreaming {
                                     })
                                     .build());
 
-            
+                });
+
+                countDownLatch.await
