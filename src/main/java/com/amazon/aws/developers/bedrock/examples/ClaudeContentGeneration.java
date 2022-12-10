@@ -1,3 +1,3 @@
 package com.amazon.aws.developers.bedrock.examples;
 
-i
+import java.nio.charset.Chars
