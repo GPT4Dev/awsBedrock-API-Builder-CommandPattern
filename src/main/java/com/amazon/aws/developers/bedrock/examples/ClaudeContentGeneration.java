@@ -4,4 +4,4 @@ import java.nio.charset.Charset;
 import org.json.JSONObject;
 import com.amazon.aws.developers.bedrock.util.BedrockRequestBody;
 
-import software.amazon.awssdk.aut
+import software.amazon.awssdk.auth.credentials.ProfileCredentialsProvider
