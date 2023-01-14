@@ -13,4 +13,6 @@ import software.amazon.awssdk.services.bedrockruntime.model.InvokeModelResponse;
 
 public class ClaudeContentGeneration {
 
-    private static final Str
+    private static final String MODEL_ID = "anthropic.claude-v2";
+
+   
