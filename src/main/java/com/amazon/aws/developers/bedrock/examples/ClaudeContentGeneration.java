@@ -15,4 +15,5 @@ public class ClaudeContentGeneration {
 
     private static final String MODEL_ID = "anthropic.claude-v2";
 
-   
+    private static final String PROMPT = """
+        Gen
