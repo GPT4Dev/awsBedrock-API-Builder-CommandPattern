@@ -17,4 +17,4 @@ public class ClaudeContentGeneration {
 
     private static final String PROMPT = """
         Generative AI refers to artificial intelligence systems that are capable of generating
-        n
+        novel content such as text, images,
