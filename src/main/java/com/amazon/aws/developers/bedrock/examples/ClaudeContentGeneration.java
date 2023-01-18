@@ -16,4 +16,5 @@ public class ClaudeContentGeneration {
     private static final String MODEL_ID = "anthropic.claude-v2";
 
     private static final String PROMPT = """
-        Generative AI refers to artificial intelligence systems that are capable 
+        Generative AI refers to artificial intelligence systems that are capable of generating
+        n
