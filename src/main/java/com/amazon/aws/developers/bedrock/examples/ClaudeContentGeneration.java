@@ -19,4 +19,5 @@ public class ClaudeContentGeneration {
         Generative AI refers to artificial intelligence systems that are capable of generating
         novel content such as text, images, audio, video, and more, as opposed to just analyzing
         existing data. The key aspect of generative AI is that it creates brand new outputs that
-        are unique and original, not just reproductions or remixes of existing content.
+        are unique and original, not just reproductions or remixes of existing content. Generative
+        AI leverages machi
