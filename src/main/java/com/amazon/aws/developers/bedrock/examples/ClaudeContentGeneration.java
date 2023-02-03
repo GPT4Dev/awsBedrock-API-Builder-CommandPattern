@@ -20,4 +20,5 @@ public class ClaudeContentGeneration {
         novel content such as text, images, audio, video, and more, as opposed to just analyzing
         existing data. The key aspect of generative AI is that it creates brand new outputs that
         are unique and original, not just reproductions or remixes of existing content. Generative
-        AI leverages machine learning techniques like neural networks that are trained on la
+        AI leverages machine learning techniques like neural networks that are trained on large
+        datasets to build an 
