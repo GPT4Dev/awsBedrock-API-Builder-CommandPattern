@@ -22,4 +22,4 @@ public class ClaudeContentGeneration {
         are unique and original, not just reproductions or remixes of existing content. Generative
         AI leverages machine learning techniques like neural networks that are trained on large
         datasets to build an understanding of patterns and structures within the data. It then
-        u
+        uses that knowledge to generate new arti
