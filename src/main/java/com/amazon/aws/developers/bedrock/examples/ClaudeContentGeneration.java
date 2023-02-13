@@ -24,4 +24,4 @@ public class ClaudeContentGeneration {
         datasets to build an understanding of patterns and structures within the data. It then
         uses that knowledge to generate new artifacts that conform to those patterns but are not
         identical copies, allowing for creativity and imagination. Prominent examples of generative
-        AI include systems like DALL-E 
+        AI include systems like DALL-E that creates images from text descriptions, GP
