@@ -26,4 +26,4 @@ public class ClaudeContentGeneration {
         identical copies, allowing for creativity and imagination. Prominent examples of generative
         AI include systems like DALL-E that creates images from text descriptions, GPT-3 that
         generates human-like text, and WaveNet that produces realistic synthetic voices. Generative
-        models hold great promis
+        models hold great promise for assisting and augmenting human c
