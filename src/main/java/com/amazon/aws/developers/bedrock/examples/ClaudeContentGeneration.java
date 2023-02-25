@@ -31,4 +31,4 @@ public class ClaudeContentGeneration {
         generative AI aims to mimic human creative abilities at scale to autonomously produce
         high-quality, diverse, and novel content.        
 
-        Please create a single
+        Please create a single short paragraph so that 
