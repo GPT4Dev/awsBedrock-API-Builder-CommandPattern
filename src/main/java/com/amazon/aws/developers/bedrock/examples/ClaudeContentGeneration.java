@@ -31,4 +31,7 @@ public class ClaudeContentGeneration {
         generative AI aims to mimic human creative abilities at scale to autonomously produce
         high-quality, diverse, and novel content.        
 
-        Please create a single short paragraph so that a fiver years old child
+        Please create a single short paragraph so that a fiver years old child can understand.
+    """;
+
+    publi
