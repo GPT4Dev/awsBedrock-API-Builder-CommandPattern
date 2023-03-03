@@ -36,4 +36,4 @@ public class ClaudeContentGeneration {
 
     public static void main(String... args) throws Exception {
 
-  
+        try (BedrockRuntimeClie
