@@ -34,4 +34,6 @@ public class ClaudeContentGeneration {
         Please create a single short paragraph so that a fiver years old child can understand.
     """;
 
-    public static void main(St
+    public static void main(String... args) throws Exception {
+
+  
