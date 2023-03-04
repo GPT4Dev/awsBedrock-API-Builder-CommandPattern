@@ -36,4 +36,5 @@ public class ClaudeContentGeneration {
 
     public static void main(String... args) throws Exception {
 
-        try (BedrockRuntimeClient bedrockClient = BedrockRunti
+        try (BedrockRuntimeClient bedrockClient = BedrockRuntimeClient.builder()
+          
