@@ -39,4 +39,6 @@ public class ClaudeContentGeneration {
         try (BedrockRuntimeClient bedrockClient = BedrockRuntimeClient.builder()
             .region(Region.US_EAST_1)
             .credentialsProvider(ProfileCredentialsProvider.create())
-            
+            .build()) {
+
+            String bedrockBody 
