@@ -41,4 +41,5 @@ public class ClaudeContentGeneration {
             .credentialsProvider(ProfileCredentialsProvider.create())
             .build()) {
 
-            String bedrockBody = BedrockRequestBody.builder
+            String bedrockBody = BedrockRequestBody.builder()
+                .withModelId(MODE
