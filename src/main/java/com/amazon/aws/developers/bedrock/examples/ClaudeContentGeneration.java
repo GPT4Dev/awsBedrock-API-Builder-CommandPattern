@@ -42,4 +42,6 @@ public class ClaudeContentGeneration {
             .build()) {
 
             String bedrockBody = BedrockRequestBody.builder()
-                .withModelId(MODE
+                .withModelId(MODEL_ID)
+                .withPrompt(PROMPT)
+ 
