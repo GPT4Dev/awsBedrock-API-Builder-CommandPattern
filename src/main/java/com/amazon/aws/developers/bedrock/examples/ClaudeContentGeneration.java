@@ -44,4 +44,5 @@ public class ClaudeContentGeneration {
             String bedrockBody = BedrockRequestBody.builder()
                 .withModelId(MODEL_ID)
                 .withPrompt(PROMPT)
-                .withInferencePara
+                .withInferenceParameter("max_tokens_to_sample", 2048)
+          
