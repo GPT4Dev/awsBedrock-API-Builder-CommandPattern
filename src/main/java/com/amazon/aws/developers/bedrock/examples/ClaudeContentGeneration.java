@@ -46,4 +46,5 @@ public class ClaudeContentGeneration {
                 .withPrompt(PROMPT)
                 .withInferenceParameter("max_tokens_to_sample", 2048)
                 .withInferenceParameter("temperature", 0.5)
-                .withInferenceParameter("top_k", 
+                .withInferenceParameter("top_k", 250)
+                .withInferen
