@@ -48,4 +48,6 @@ public class ClaudeContentGeneration {
                 .withInferenceParameter("temperature", 0.5)
                 .withInferenceParameter("top_k", 250)
                 .withInferenceParameter("top_p", 1)
- 
+                .build();
+
+    
