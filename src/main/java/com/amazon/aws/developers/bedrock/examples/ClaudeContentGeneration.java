@@ -50,4 +50,5 @@ public class ClaudeContentGeneration {
                 .withInferenceParameter("top_p", 1)
                 .build();
 
-            InvokeModelRequest invokeModelRequest = Inv
+            InvokeModelRequest invokeModelRequest = InvokeModelRequest.builder()
+    
