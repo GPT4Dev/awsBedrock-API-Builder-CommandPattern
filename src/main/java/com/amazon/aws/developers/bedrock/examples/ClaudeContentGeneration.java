@@ -51,4 +51,5 @@ public class ClaudeContentGeneration {
                 .build();
 
             InvokeModelRequest invokeModelRequest = InvokeModelRequest.builder()
-    
+                .modelId(MODEL_ID)
+     
