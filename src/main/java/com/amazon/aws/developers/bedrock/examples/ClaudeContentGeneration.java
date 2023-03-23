@@ -52,4 +52,4 @@ public class ClaudeContentGeneration {
 
             InvokeModelRequest invokeModelRequest = InvokeModelRequest.builder()
                 .modelId(MODEL_ID)
-                .body(SdkBytes.fromString(b
+                .body(SdkBytes.fromString(bedrockBody, Charset.defaultCharset
