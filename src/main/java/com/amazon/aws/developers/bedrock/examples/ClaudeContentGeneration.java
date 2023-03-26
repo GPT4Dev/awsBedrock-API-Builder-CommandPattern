@@ -55,4 +55,4 @@ public class ClaudeContentGeneration {
                 .body(SdkBytes.fromString(bedrockBody, Charset.defaultCharset()))
                 .build();
 
-            InvokeModelResponse invokeMo
+            InvokeModelResponse invokeModelResponse = bedrockClient
