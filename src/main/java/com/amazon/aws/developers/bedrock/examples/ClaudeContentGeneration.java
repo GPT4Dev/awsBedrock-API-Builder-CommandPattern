@@ -58,4 +58,5 @@ public class ClaudeContentGeneration {
             InvokeModelResponse invokeModelResponse = bedrockClient.invokeModel(invokeModelRequest);
             JSONObject responseAsJson = new JSONObject(invokeModelResponse.body().asUtf8String());
 
-            System.ou
+            System.out.println("🤖 Response: ");
+          
