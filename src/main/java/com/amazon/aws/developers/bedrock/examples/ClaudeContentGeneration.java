@@ -59,4 +59,4 @@ public class ClaudeContentGeneration {
             JSONObject responseAsJson = new JSONObject(invokeModelResponse.body().asUtf8String());
 
             System.out.println("🤖 Response: ");
-          
+            System.out.println(responseAsJson
