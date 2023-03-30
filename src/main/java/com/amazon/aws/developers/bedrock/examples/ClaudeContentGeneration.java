@@ -60,3 +60,4 @@ public class ClaudeContentGeneration {
 
             System.out.println("🤖 Response: ");
             System.out.println(responseAsJson
+                .getString("
