@@ -4,4 +4,8 @@ import java.util.Map;
 import java.util.HashMap;
 import org.json.JSONObject;
 
-import software.amazon.awssdk.annotations.Not
+import software.amazon.awssdk.annotations.NotNull;
+
+public class BedrockRequestBody {
+
+  
