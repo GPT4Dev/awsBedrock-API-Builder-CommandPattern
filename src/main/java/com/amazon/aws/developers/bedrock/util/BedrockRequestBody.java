@@ -8,4 +8,4 @@ import software.amazon.awssdk.annotations.NotNull;
 
 public class BedrockRequestBody {
 
-  
+    private BedrockRequestBody() {
