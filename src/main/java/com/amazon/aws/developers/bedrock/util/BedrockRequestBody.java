@@ -11,4 +11,5 @@ public class BedrockRequestBody {
     private BedrockRequestBody() {
     }
 
-    public static BedrockReque
+    public static BedrockRequestBodyBuilder builder() {
+        
