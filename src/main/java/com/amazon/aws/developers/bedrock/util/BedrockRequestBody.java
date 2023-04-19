@@ -12,4 +12,4 @@ public class BedrockRequestBody {
     }
 
     public static BedrockRequestBodyBuilder builder() {
-        
+        return new BedrockRequ
