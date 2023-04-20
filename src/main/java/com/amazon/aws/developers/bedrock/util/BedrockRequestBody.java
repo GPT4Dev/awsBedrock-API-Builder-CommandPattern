@@ -15,4 +15,4 @@ public class BedrockRequestBody {
         return new BedrockRequestBodyBuilder();
     }
 
-    public stati
+    public static class BedrockRequestBodyBuil
