@@ -15,4 +15,6 @@ public class BedrockRequestBody {
         return new BedrockRequestBodyBuilder();
     }
 
-    public static class BedrockRequestBodyBuil
+    public static class BedrockRequestBodyBuilder {
+
+        @NotNull private String 
