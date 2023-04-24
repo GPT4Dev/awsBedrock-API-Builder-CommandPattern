@@ -18,4 +18,5 @@ public class BedrockRequestBody {
     public static class BedrockRequestBodyBuilder {
 
         @NotNull private String modelId;
-        @NotNull 
+        @NotNull private String prompt;
+        privat
