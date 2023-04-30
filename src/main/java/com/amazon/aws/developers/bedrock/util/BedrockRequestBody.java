@@ -19,4 +19,6 @@ public class BedrockRequestBody {
 
         @NotNull private String modelId;
         @NotNull private String prompt;
-        private Map<String, Object> inferenceParamet
+        private Map<String, Object> inferenceParameters;
+
+        public BedrockRequestBody
