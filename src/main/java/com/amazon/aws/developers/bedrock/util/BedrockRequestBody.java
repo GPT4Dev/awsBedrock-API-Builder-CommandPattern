@@ -22,4 +22,5 @@ public class BedrockRequestBody {
         private Map<String, Object> inferenceParameters;
 
         public BedrockRequestBodyBuilder withModelId(String modelId) {
-   
+            this.modelId = modelId;
+ 
