@@ -21,4 +21,5 @@ public class BedrockRequestBody {
         @NotNull private String prompt;
         private Map<String, Object> inferenceParameters;
 
-        public BedrockRequestBody
+        public BedrockRequestBodyBuilder withModelId(String modelId) {
+   
