@@ -23,4 +23,7 @@ public class BedrockRequestBody {
 
         public BedrockRequestBodyBuilder withModelId(String modelId) {
             this.modelId = modelId;
- 
+            return this;
+        }
+
+       
