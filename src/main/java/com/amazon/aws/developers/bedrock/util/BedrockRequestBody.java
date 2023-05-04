@@ -26,4 +26,4 @@ public class BedrockRequestBody {
             return this;
         }
 
-       
+        public BedrockRequestBodyBuilder with
