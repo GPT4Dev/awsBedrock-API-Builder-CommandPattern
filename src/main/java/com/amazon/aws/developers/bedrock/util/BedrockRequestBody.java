@@ -28,4 +28,7 @@ public class BedrockRequestBody {
 
         public BedrockRequestBodyBuilder withPrompt(String prompt) {
             this.prompt = prompt;
-         
+            return this;
+        }
+
+       
