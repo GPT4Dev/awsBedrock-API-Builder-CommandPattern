@@ -31,4 +31,5 @@ public class BedrockRequestBody {
             return this;
         }
 
-        public BedrockRequestBodyBuilder withInferenceParameter(String pa
+        public BedrockRequestBodyBuilder withInferenceParameter(String paramName, Object paramValue) {
+     
