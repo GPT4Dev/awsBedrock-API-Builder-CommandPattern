@@ -34,4 +34,5 @@ public class BedrockRequestBody {
         public BedrockRequestBodyBuilder withInferenceParameter(String paramName, Object paramValue) {
             if (inferenceParameters == null) {
                 inferenceParameters = new HashMap<>();
-        
+            }
+            inferenceP
