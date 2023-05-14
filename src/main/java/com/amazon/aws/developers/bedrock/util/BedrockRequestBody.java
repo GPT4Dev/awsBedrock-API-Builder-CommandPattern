@@ -35,4 +35,5 @@ public class BedrockRequestBody {
             if (inferenceParameters == null) {
                 inferenceParameters = new HashMap<>();
             }
-            inferenceParameters.put(paramName, par
+            inferenceParameters.put(paramName, paramValue);
+            return this;
