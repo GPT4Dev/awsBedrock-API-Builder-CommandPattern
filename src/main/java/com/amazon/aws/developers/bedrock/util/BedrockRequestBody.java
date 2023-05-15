@@ -37,3 +37,7 @@ public class BedrockRequestBody {
             }
             inferenceParameters.put(paramName, paramValue);
             return this;
+        }
+
+        public String build() {
+   
