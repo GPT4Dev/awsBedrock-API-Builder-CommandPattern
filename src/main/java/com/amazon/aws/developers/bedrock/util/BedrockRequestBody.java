@@ -41,4 +41,4 @@ public class BedrockRequestBody {
 
         public String build() {
             if (modelId == null) {
-                throw new IllegalArgume
+                throw new IllegalArgumentException("'modelId' is a req
