@@ -43,4 +43,4 @@ public class BedrockRequestBody {
             if (modelId == null) {
                 throw new IllegalArgumentException("'modelId' is a required parameter");
             }
-  
+            if (prompt == nul
