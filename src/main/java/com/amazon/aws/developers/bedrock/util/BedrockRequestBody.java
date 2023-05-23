@@ -47,4 +47,5 @@ public class BedrockRequestBody {
                 throw new IllegalArgumentException("'prompt' is a required parameter");
             }
             BedrockBodyCommand bedrockBodyCommand = null;
-            switch (modelId
+            switch (modelId) {
+                case "am
