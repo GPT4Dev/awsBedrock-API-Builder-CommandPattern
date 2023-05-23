@@ -48,4 +48,5 @@ public class BedrockRequestBody {
             }
             BedrockBodyCommand bedrockBodyCommand = null;
             switch (modelId) {
-                case "am
+                case "amazon.titan-tg1-large":
+        
