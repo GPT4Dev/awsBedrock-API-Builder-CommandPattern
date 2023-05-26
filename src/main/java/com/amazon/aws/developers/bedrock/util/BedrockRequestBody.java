@@ -49,4 +49,4 @@ public class BedrockRequestBody {
             BedrockBodyCommand bedrockBodyCommand = null;
             switch (modelId) {
                 case "amazon.titan-tg1-large":
-        
+                case "amazon.titan-text-express-v1":
