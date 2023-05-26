@@ -50,3 +50,4 @@ public class BedrockRequestBody {
             switch (modelId) {
                 case "amazon.titan-tg1-large":
                 case "amazon.titan-text-express-v1":
+                    bedrockBodyComma
