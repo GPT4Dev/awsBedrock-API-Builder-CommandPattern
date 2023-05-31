@@ -50,4 +50,5 @@ public class BedrockRequestBody {
             switch (modelId) {
                 case "amazon.titan-tg1-large":
                 case "amazon.titan-text-express-v1":
-                    bedrockBodyCommand = new AmazonTitanCommand(pr
+                    bedrockBodyCommand = new AmazonTitanCommand(prompt, inferenceParameters);
+     
