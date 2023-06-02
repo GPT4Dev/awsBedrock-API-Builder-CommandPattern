@@ -53,4 +53,5 @@ public class BedrockRequestBody {
                     bedrockBodyCommand = new AmazonTitanCommand(prompt, inferenceParameters);
                     break;
                 case "ai21.j2-mid-v1":
-             
+                case "ai21.j2-ultra-v1":
+              
