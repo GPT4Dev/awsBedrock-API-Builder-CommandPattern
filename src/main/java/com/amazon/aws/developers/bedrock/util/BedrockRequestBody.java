@@ -54,4 +54,4 @@ public class BedrockRequestBody {
                     break;
                 case "ai21.j2-mid-v1":
                 case "ai21.j2-ultra-v1":
-              
+                    bedrockBodyCommand = new A
