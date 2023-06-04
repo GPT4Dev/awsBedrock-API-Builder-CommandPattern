@@ -56,4 +56,4 @@ public class BedrockRequestBody {
                 case "ai21.j2-ultra-v1":
                     bedrockBodyCommand = new AI21LabsCommand(prompt, inferenceParameters);
                     break;
-            
+                case "anthropic.claude-instant-
