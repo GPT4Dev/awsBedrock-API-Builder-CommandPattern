@@ -58,4 +58,5 @@ public class BedrockRequestBody {
                     break;
                 case "anthropic.claude-instant-v1":
                 case "anthropic.claude-v1":
-                case
+                case "anthropic.claude-v2":
+       
