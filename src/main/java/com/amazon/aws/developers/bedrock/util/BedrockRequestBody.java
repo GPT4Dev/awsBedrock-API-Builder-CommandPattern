@@ -59,4 +59,6 @@ public class BedrockRequestBody {
                 case "anthropic.claude-instant-v1":
                 case "anthropic.claude-v1":
                 case "anthropic.claude-v2":
-                    bedrockBodyCommand = new AnthropicCommand(prompt, inferencePar
+                    bedrockBodyCommand = new AnthropicCommand(prompt, inferenceParameters);
+                    break;
+  
