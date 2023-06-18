@@ -62,4 +62,5 @@ public class BedrockRequestBody {
                     bedrockBodyCommand = new AnthropicCommand(prompt, inferenceParameters);
                     break;
                 case "cohere.command-text-v14":
-                    bedrockBodyCommand = new CohereCommand(prompt, infer
+                    bedrockBodyCommand = new CohereCommand(prompt, inferenceParameters);
+                    b
