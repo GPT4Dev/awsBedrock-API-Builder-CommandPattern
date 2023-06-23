@@ -64,4 +64,5 @@ public class BedrockRequestBody {
                 case "cohere.command-text-v14":
                     bedrockBodyCommand = new CohereCommand(prompt, inferenceParameters);
                     break;
-                case "stabili
+                case "stability.stable-diffusion-xl-v0":
+        
