@@ -67,4 +67,5 @@ public class BedrockRequestBody {
                 case "stability.stable-diffusion-xl-v0":
                     bedrockBodyCommand = new StabilityAICommand(prompt, inferenceParameters);
                     break;
-          
+            }
+            return bedrockBodyComma
