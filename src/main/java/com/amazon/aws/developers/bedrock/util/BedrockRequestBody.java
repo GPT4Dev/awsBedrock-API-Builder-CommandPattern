@@ -65,4 +65,6 @@ public class BedrockRequestBody {
                     bedrockBodyCommand = new CohereCommand(prompt, inferenceParameters);
                     break;
                 case "stability.stable-diffusion-xl-v0":
-                    bedrockBodyCommand = new StabilityAICommand(prompt, inferenceParameters)
+                    bedrockBodyCommand = new StabilityAICommand(prompt, inferenceParameters);
+                    break;
+          
