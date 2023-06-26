@@ -68,4 +68,11 @@ public class BedrockRequestBody {
                     bedrockBodyCommand = new StabilityAICommand(prompt, inferenceParameters);
                     break;
             }
-            return bedrockBodyComma
+            return bedrockBodyCommand.execute();
+        }
+
+    }
+
+}
+
+a
