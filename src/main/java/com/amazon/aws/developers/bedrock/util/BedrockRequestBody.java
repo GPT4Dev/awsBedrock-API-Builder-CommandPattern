@@ -75,4 +75,6 @@ public class BedrockRequestBody {
 
 }
 
-a
+abstract class BedrockBodyCommand {
+
+ 
