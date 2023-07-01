@@ -77,4 +77,5 @@ public class BedrockRequestBody {
 
 abstract class BedrockBodyCommand {
 
- 
+    protected String prompt;
+    protected
