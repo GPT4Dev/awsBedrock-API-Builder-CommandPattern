@@ -80,4 +80,4 @@ abstract class BedrockBodyCommand {
     protected String prompt;
     protected Map<String, Object> inferenceParameters;
 
-    public BedrockBodyCommand(String prompt, Map<String,
+    public BedrockBodyCommand(String prompt, Map<String, Object> inferenceParameter
