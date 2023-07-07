@@ -78,4 +78,6 @@ public class BedrockRequestBody {
 abstract class BedrockBodyCommand {
 
     protected String prompt;
-    protected Map<String, Object> inf
+    protected Map<String, Object> inferenceParameters;
+
+    public Bedro
