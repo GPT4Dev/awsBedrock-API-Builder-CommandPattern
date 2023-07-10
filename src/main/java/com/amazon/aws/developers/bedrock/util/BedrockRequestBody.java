@@ -85,4 +85,5 @@ abstract class BedrockBodyCommand {
         this.inferenceParameters = inferenceParameters;
     }
 
-    protected void updateMap(Map<String, Object> existingMap, Map<
+    protected void updateMap(Map<String, Object> existingMap, Map<String, Object> newEntries) {
+        ne
