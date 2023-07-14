@@ -87,4 +87,4 @@ abstract class BedrockBodyCommand {
 
     protected void updateMap(Map<String, Object> existingMap, Map<String, Object> newEntries) {
         newEntries.forEach((newEntryKey, newEntryValue) -> {
-           
+            updateMap(existingMap, newEnt
