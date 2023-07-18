@@ -91,4 +91,4 @@ abstract class BedrockBodyCommand {
         });
     }
 
-    protected void updateMap(Map<S
+    protected void updateMap(Map<String, Object> existingMap, String key,
