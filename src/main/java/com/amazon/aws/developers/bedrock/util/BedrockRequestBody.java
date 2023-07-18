@@ -91,3 +91,4 @@ abstract class BedrockBodyCommand {
         });
     }
 
+    protected void updateMap(Map<S
