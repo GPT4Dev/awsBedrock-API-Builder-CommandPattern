@@ -92,4 +92,4 @@ abstract class BedrockBodyCommand {
     }
 
     protected void updateMap(Map<String, Object> existingMap, String key, Object newValue) {
-      
+        if (existingMap.containsKey(key)
