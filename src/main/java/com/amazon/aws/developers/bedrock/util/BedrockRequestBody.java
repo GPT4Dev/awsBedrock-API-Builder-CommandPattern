@@ -96,4 +96,5 @@ abstract class BedrockBodyCommand {
             existingMap.put(key, newValue);
         } else {
             existingMap.values().forEach(existingValue -> {
-                if (existingValue insta
+                if (existingValue instanceof Map) {
+              
