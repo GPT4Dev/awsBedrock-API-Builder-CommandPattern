@@ -97,4 +97,5 @@ abstract class BedrockBodyCommand {
         } else {
             existingMap.values().forEach(existingValue -> {
                 if (existingValue instanceof Map) {
-                    @SuppressWarnings("unche
+                    @SuppressWarnings("unchecked")
+                    var valueAsMap
