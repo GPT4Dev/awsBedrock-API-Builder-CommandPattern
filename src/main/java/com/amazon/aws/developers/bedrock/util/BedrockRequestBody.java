@@ -99,4 +99,4 @@ abstract class BedrockBodyCommand {
                 if (existingValue instanceof Map) {
                     @SuppressWarnings("unchecked")
                     var valueAsMap = (Map<String, Object>) existingValue;
-                    upd
+                    updateMap(valueAsMap, key, newValue);
