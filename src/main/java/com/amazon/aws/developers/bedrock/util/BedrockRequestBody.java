@@ -98,4 +98,5 @@ abstract class BedrockBodyCommand {
             existingMap.values().forEach(existingValue -> {
                 if (existingValue instanceof Map) {
                     @SuppressWarnings("unchecked")
-                    var valueAsMap = (Map<String, Object>) existingValu
+                    var valueAsMap = (Map<String, Object>) existingValue;
+                    upd
