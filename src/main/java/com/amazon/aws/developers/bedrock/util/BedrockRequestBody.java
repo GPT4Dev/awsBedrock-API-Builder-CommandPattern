@@ -101,4 +101,8 @@ abstract class BedrockBodyCommand {
                     var valueAsMap = (Map<String, Object>) existingValue;
                     updateMap(valueAsMap, key, newValue);
                 }
-            }
+            });
+        }
+    }
+
+    public 
