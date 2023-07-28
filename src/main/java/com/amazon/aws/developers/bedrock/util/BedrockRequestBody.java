@@ -105,4 +105,8 @@ abstract class BedrockBodyCommand {
         }
     }
 
-    public 
+    public abstract String execute();
+
+}
+
+class Amaz
