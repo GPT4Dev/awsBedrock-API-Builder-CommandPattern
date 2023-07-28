@@ -109,4 +109,4 @@ abstract class BedrockBodyCommand {
 
 }
 
-class Amaz
+class AmazonTitanCommand extends BedrockBodyComma
