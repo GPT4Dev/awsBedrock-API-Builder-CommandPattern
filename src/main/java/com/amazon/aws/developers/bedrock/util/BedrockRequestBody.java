@@ -111,4 +111,4 @@ abstract class BedrockBodyCommand {
 
 class AmazonTitanCommand extends BedrockBodyCommand {
 
-    public AmazonTitanCommand(S
+    public AmazonTitanCommand(String prompt, Map<String, Object> in
