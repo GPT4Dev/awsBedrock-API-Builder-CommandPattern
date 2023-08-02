@@ -115,3 +115,5 @@ class AmazonTitanCommand extends BedrockBodyCommand {
         super(prompt, inferenceParameters);
     }
 
+    @Override
+    public String e
