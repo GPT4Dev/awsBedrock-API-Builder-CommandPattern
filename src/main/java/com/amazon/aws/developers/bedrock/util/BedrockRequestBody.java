@@ -112,4 +112,6 @@ abstract class BedrockBodyCommand {
 class AmazonTitanCommand extends BedrockBodyCommand {
 
     public AmazonTitanCommand(String prompt, Map<String, Object> inferenceParameters) {
-        super(pr
+        super(prompt, inferenceParameters);
+    }
+
