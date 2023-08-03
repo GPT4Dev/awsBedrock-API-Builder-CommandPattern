@@ -116,4 +116,6 @@ class AmazonTitanCommand extends BedrockBodyCommand {
     }
 
     @Override
-    public String e
+    public String execute() {
+
+        final Map<String, 
