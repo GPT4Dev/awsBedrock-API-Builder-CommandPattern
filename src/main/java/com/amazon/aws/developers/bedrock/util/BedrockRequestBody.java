@@ -118,4 +118,4 @@ class AmazonTitanCommand extends BedrockBodyCommand {
     @Override
     public String execute() {
 
-        final Map<String, 
+        final Map<String, Object> textGenerationConfig = new HashMa
