@@ -121,4 +121,4 @@ class AmazonTitanCommand extends BedrockBodyCommand {
         final Map<String, Object> textGenerationConfig = new HashMap<>(4);
 
         textGenerationConfig.put("maxTokenCount", 512);
-       
+        textGenerationConfig.put("sto
