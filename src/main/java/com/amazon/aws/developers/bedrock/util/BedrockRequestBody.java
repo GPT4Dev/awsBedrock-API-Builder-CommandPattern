@@ -122,3 +122,4 @@ class AmazonTitanCommand extends BedrockBodyCommand {
 
         textGenerationConfig.put("maxTokenCount", 512);
         textGenerationConfig.put("stopSequences", new String[] {});
+        textGenerationConfig.put
