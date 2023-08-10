@@ -124,3 +124,5 @@ class AmazonTitanCommand extends BedrockBodyCommand {
         textGenerationConfig.put("stopSequences", new String[] {});
         textGenerationConfig.put("temperature", 0);
         textGenerationConfig.put("topP", 0.9f);
+
+        final Map<String, Object> j
