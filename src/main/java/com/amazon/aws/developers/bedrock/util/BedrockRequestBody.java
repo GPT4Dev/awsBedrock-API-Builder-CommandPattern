@@ -125,4 +125,5 @@ class AmazonTitanCommand extends BedrockBodyCommand {
         textGenerationConfig.put("temperature", 0);
         textGenerationConfig.put("topP", 0.9f);
 
-        final Map<String, Object> j
+        final Map<String, Object> jsonMap = new HashMap<>(2);
+
