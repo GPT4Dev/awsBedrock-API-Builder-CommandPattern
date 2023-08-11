@@ -128,4 +128,4 @@ class AmazonTitanCommand extends BedrockBodyCommand {
         final Map<String, Object> jsonMap = new HashMap<>(2);
 
         jsonMap.put("inputText", this.prompt);
-        jsonMap.put("te
+        jsonMap.put("textGenerationConfig", textGenerationCo
