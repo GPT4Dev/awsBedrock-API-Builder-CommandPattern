@@ -131,4 +131,4 @@ class AmazonTitanCommand extends BedrockBodyCommand {
         jsonMap.put("textGenerationConfig", textGenerationConfig);
 
         if (this.inferenceParameters != null && !this.inferenceParameters.isEmpty()) {
- 
+            updateMap(jsonMa
