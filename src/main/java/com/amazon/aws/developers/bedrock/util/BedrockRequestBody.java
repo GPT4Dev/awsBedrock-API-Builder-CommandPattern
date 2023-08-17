@@ -138,4 +138,4 @@ class AmazonTitanCommand extends BedrockBodyCommand {
 
 }
 
-class AI21LabsCom
+class AI21LabsCommand extends BedrockBodyComm
