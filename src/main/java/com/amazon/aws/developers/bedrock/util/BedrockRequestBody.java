@@ -133,4 +133,9 @@ class AmazonTitanCommand extends BedrockBodyCommand {
         if (this.inferenceParameters != null && !this.inferenceParameters.isEmpty()) {
             updateMap(jsonMap, inferenceParameters);
         }
-        return new JSONObject(jsonMap).toS
+        return new JSONObject(jsonMap).toString();
+    }
+
+}
+
+class AI21LabsCom
