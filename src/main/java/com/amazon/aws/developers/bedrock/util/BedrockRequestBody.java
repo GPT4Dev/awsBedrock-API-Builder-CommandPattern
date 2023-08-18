@@ -140,4 +140,4 @@ class AmazonTitanCommand extends BedrockBodyCommand {
 
 class AI21LabsCommand extends BedrockBodyCommand {
 
-    public AI21LabsCommand(Str
+    public AI21LabsCommand(String prompt, Map<String, Object> infe
