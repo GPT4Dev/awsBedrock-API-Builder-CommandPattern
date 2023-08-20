@@ -145,4 +145,6 @@ class AI21LabsCommand extends BedrockBodyCommand {
     }
 
     @Override
-    p
+    public String execute() {
+
+       
