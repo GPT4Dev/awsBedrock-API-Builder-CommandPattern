@@ -147,4 +147,4 @@ class AI21LabsCommand extends BedrockBodyCommand {
     @Override
     public String execute() {
 
-       
+        final Map<String, Object> countPenalty = M
