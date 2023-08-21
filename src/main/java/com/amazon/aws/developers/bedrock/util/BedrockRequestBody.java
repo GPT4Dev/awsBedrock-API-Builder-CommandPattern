@@ -148,4 +148,4 @@ class AI21LabsCommand extends BedrockBodyCommand {
     public String execute() {
 
         final Map<String, Object> countPenalty = Map.of("scale", 0);
-        final M
+        final Map<String, Object> presencePenalty = Map.of("sca
