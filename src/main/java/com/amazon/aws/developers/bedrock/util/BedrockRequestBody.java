@@ -149,4 +149,5 @@ class AI21LabsCommand extends BedrockBodyCommand {
 
         final Map<String, Object> countPenalty = Map.of("scale", 0);
         final Map<String, Object> presencePenalty = Map.of("scale", 0);
-        final Map<String, Object> frequencyPenalty = Map.of(
+        final Map<String, Object> frequencyPenalty = Map.of("scale", 0);
+        final Map<String, Object> js
