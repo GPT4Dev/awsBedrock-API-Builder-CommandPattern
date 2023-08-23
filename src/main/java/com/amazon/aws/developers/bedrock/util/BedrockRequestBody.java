@@ -152,4 +152,5 @@ class AI21LabsCommand extends BedrockBodyCommand {
         final Map<String, Object> frequencyPenalty = Map.of("scale", 0);
         final Map<String, Object> jsonMap = new HashMap<>(8);
 
-        jsonMap.put("prompt", th
+        jsonMap.put("prompt", this.prompt);
+        jsonMap.put("maxTo
