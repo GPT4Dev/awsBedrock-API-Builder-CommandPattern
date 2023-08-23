@@ -153,4 +153,5 @@ class AI21LabsCommand extends BedrockBodyCommand {
         final Map<String, Object> jsonMap = new HashMap<>(8);
 
         jsonMap.put("prompt", this.prompt);
-        jsonMap.put("maxTo
+        jsonMap.put("maxTokens", 200);
+        jsonMap.put("temp
