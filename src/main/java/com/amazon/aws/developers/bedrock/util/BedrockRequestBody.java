@@ -157,4 +157,4 @@ class AI21LabsCommand extends BedrockBodyCommand {
         jsonMap.put("temperature", 0.7);
         jsonMap.put("topP", 1);
         jsonMap.put("stopSequences", new String[] {});
-    
+        jsonMap.put("countPenalty
