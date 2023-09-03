@@ -162,4 +162,6 @@ class AI21LabsCommand extends BedrockBodyCommand {
         jsonMap.put("frequencyPenalty", frequencyPenalty);
 
         if (this.inferenceParameters != null && !this.inferenceParameters.isEmpty()) {
-            updateMap(jsonMap, infe
+            updateMap(jsonMap, inferenceParameters);
+        }
+        retur
