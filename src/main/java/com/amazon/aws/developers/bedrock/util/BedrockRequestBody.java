@@ -169,4 +169,4 @@ class AI21LabsCommand extends BedrockBodyCommand {
 
 }
 
-class An
+class AnthropicCommand extends BedrockBody
