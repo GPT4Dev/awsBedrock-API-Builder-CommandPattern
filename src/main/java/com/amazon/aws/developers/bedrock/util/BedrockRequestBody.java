@@ -164,4 +164,9 @@ class AI21LabsCommand extends BedrockBodyCommand {
         if (this.inferenceParameters != null && !this.inferenceParameters.isEmpty()) {
             updateMap(jsonMap, inferenceParameters);
         }
-        return new JSONObject(jsonMap).to
+        return new JSONObject(jsonMap).toString();
+    }
+
+}
+
+class An
