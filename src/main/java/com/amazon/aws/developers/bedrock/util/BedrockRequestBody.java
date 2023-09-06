@@ -171,4 +171,5 @@ class AI21LabsCommand extends BedrockBodyCommand {
 
 class AnthropicCommand extends BedrockBodyCommand {
 
-    public AnthropicCommand(String prompt, Map<String, Object> i
+    public AnthropicCommand(String prompt, Map<String, Object> inferenceParameters) {
+        su
