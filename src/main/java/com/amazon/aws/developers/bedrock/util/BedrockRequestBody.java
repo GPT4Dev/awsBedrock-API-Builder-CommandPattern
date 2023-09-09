@@ -174,3 +174,6 @@ class AnthropicCommand extends BedrockBodyCommand {
     public AnthropicCommand(String prompt, Map<String, Object> inferenceParameters) {
         super(prompt, inferenceParameters);
     }
+
+    @Override
+    public String exe
