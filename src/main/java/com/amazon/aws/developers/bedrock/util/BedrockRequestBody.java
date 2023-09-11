@@ -176,4 +176,6 @@ class AnthropicCommand extends BedrockBodyCommand {
     }
 
     @Override
-    public String exe
+    public String execute() {
+
+        final Stri
