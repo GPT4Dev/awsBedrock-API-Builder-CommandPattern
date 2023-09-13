@@ -178,4 +178,4 @@ class AnthropicCommand extends BedrockBodyCommand {
     @Override
     public String execute() {
 
-        final Stri
+        final String promptTemplat
