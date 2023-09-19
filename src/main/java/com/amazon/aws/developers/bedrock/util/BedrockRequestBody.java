@@ -179,4 +179,4 @@ class AnthropicCommand extends BedrockBodyCommand {
     public String execute() {
 
         final String promptTemplate = "Human: \n Human: ##PROMPT## \n nAssistant:";
-        final String actualProm
+        final String actualPrompt = promptTemplate.replace("##PROMPT
