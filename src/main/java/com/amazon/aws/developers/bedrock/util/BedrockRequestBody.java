@@ -181,4 +181,6 @@ class AnthropicCommand extends BedrockBodyCommand {
         final String promptTemplate = "Human: \n Human: ##PROMPT## \n nAssistant:";
         final String actualPrompt = promptTemplate.replace("##PROMPT##", this.prompt);
 
-        Map<String, Object> jsonMap = new 
+        Map<String, Object> jsonMap = new HashMap<>(7);
+
+        jsonMap.put("promp
