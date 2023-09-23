@@ -183,4 +183,5 @@ class AnthropicCommand extends BedrockBodyCommand {
 
         Map<String, Object> jsonMap = new HashMap<>(7);
 
-        jsonMap.put("promp
+        jsonMap.put("prompt", actualPrompt);
+        jsonM
