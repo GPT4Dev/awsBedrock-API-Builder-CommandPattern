@@ -188,4 +188,4 @@ class AnthropicCommand extends BedrockBodyCommand {
         jsonMap.put("temperature", 1);
         jsonMap.put("top_k", 250);
         jsonMap.put("top_p", 0.999);
-      
+        jsonMap.put("stop_sequences", new 
