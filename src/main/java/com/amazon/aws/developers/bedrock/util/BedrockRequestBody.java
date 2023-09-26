@@ -187,4 +187,5 @@ class AnthropicCommand extends BedrockBodyCommand {
         jsonMap.put("max_tokens_to_sample", 300);
         jsonMap.put("temperature", 1);
         jsonMap.put("top_k", 250);
-     
+        jsonMap.put("top_p", 0.999);
+      
