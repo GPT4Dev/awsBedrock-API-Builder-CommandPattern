@@ -189,4 +189,6 @@ class AnthropicCommand extends BedrockBodyCommand {
         jsonMap.put("top_k", 250);
         jsonMap.put("top_p", 0.999);
         jsonMap.put("stop_sequences", new String[] {});
-        jsonMap.put("anthropic_version", "be
+        jsonMap.put("anthropic_version", "bedrock-2023-05-31");
+
+        if (
