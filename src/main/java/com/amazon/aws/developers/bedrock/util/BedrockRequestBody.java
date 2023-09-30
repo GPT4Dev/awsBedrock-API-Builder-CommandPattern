@@ -191,4 +191,5 @@ class AnthropicCommand extends BedrockBodyCommand {
         jsonMap.put("stop_sequences", new String[] {});
         jsonMap.put("anthropic_version", "bedrock-2023-05-31");
 
-        if (this.inferenceParameters != null && !this.inferenceParameters.isEmpty()) 
+        if (this.inferenceParameters != null && !this.inferenceParameters.isEmpty()) {
+            updateMap(jsonMap, inferenceParam
