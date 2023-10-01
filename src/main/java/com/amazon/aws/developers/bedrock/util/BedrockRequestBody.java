@@ -194,4 +194,9 @@ class AnthropicCommand extends BedrockBodyCommand {
         if (this.inferenceParameters != null && !this.inferenceParameters.isEmpty()) {
             updateMap(jsonMap, inferenceParameters);
         }
-        return new JSONObject(jsonMap).toString(
+        return new JSONObject(jsonMap).toString();
+    }
+
+}
+
+class CohereCommand extend
