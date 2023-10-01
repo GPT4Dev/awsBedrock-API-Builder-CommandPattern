@@ -194,4 +194,4 @@ class AnthropicCommand extends BedrockBodyCommand {
         if (this.inferenceParameters != null && !this.inferenceParameters.isEmpty()) {
             updateMap(jsonMap, inferenceParameters);
         }
-        return new JSO
+        return new JSONObject(jsonMap).toString(
