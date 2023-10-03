@@ -199,4 +199,6 @@ class AnthropicCommand extends BedrockBodyCommand {
 
 }
 
-class CohereCommand extend
+class CohereCommand extends BedrockBodyCommand {
+
+ 
