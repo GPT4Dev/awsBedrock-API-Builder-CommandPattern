@@ -206,4 +206,6 @@ class CohereCommand extends BedrockBodyCommand {
     }
 
     @Override
-    public St
+    public String execute() {
+
+        
