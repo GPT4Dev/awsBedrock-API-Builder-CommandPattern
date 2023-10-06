@@ -202,4 +202,8 @@ class AnthropicCommand extends BedrockBodyCommand {
 class CohereCommand extends BedrockBodyCommand {
 
     public CohereCommand(String prompt, Map<String, Object> inferenceParameters) {
-        super(prompt, infere
+        super(prompt, inferenceParameters);
+    }
+
+    @Override
+    public St
