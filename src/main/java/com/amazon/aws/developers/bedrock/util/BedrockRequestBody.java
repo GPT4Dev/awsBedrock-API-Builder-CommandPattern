@@ -208,4 +208,6 @@ class CohereCommand extends BedrockBodyCommand {
     @Override
     public String execute() {
 
-        Map<String, Object> jsonMap = new HashMa
+        Map<String, Object> jsonMap = new HashMap<>(7);
+
+        jsonMap.put("pr
