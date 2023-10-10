@@ -211,4 +211,5 @@ class CohereCommand extends BedrockBodyCommand {
         Map<String, Object> jsonMap = new HashMap<>(7);
 
         jsonMap.put("prompt", this.prompt);
-        jsonMap.put("m
+        jsonMap.put("max_tokens", 400);
+        jsonMap.put(
