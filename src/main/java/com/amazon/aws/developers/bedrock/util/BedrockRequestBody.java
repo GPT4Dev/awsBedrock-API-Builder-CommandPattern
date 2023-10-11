@@ -213,4 +213,5 @@ class CohereCommand extends BedrockBodyCommand {
         jsonMap.put("prompt", this.prompt);
         jsonMap.put("max_tokens", 400);
         jsonMap.put("temperature", 0.75);
-       
+        jsonMap.put("p", 0.01);
+        jsonMap
