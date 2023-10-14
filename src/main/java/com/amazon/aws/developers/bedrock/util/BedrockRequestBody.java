@@ -215,4 +215,4 @@ class CohereCommand extends BedrockBodyCommand {
         jsonMap.put("temperature", 0.75);
         jsonMap.put("p", 0.01);
         jsonMap.put("k", 0);
-        jsonMa
+        jsonMap.put("stop_sequences", new String[] {});
