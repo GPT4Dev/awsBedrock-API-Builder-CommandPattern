@@ -216,4 +216,6 @@ class CohereCommand extends BedrockBodyCommand {
         jsonMap.put("p", 0.01);
         jsonMap.put("k", 0);
         jsonMap.put("stop_sequences", new String[] {});
-        jsonMap.put("return_lik
+        jsonMap.put("return_likelihoods", "NONE");
+
+        if (this.inferenceP
