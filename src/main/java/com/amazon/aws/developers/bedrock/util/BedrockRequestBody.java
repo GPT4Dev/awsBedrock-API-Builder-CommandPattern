@@ -219,4 +219,5 @@ class CohereCommand extends BedrockBodyCommand {
         jsonMap.put("return_likelihoods", "NONE");
 
         if (this.inferenceParameters != null && !this.inferenceParameters.isEmpty()) {
-            updateMap(jsonMap
+            updateMap(jsonMap, inferenceParameters);
+        
