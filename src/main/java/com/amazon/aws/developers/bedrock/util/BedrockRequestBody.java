@@ -221,4 +221,9 @@ class CohereCommand extends BedrockBodyCommand {
         if (this.inferenceParameters != null && !this.inferenceParameters.isEmpty()) {
             updateMap(jsonMap, inferenceParameters);
         }
-        return new JSONObject(jsonMap).
+        return new JSONObject(jsonMap).toString();
+    }
+
+}
+
+class Stabil
