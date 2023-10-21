@@ -226,4 +226,4 @@ class CohereCommand extends BedrockBodyCommand {
 
 }
 
-class Stabil
+class StabilityAICommand extends BedrockBodyCommand 
