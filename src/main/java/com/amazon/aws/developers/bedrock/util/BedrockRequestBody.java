@@ -233,4 +233,6 @@ class StabilityAICommand extends BedrockBodyCommand {
     }
 
     @Override
-    public String exec
+    public String execute() {
+
+        Map<String, Objec
