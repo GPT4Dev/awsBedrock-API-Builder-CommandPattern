@@ -230,4 +230,7 @@ class StabilityAICommand extends BedrockBodyCommand {
 
     public StabilityAICommand(String prompt, Map<String, Object> inferenceParameters) {
         super(prompt, inferenceParameters);
- 
+    }
+
+    @Override
+    public String exec
