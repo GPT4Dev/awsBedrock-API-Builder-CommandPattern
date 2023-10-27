@@ -229,4 +229,5 @@ class CohereCommand extends BedrockBodyCommand {
 class StabilityAICommand extends BedrockBodyCommand {
 
     public StabilityAICommand(String prompt, Map<String, Object> inferenceParameters) {
-        super
+        super(prompt, inferenceParameters);
+ 
