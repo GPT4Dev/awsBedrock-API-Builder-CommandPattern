@@ -235,4 +235,6 @@ class StabilityAICommand extends BedrockBodyCommand {
     @Override
     public String execute() {
 
-        Map<String, Objec
+        Map<String, Object> jsonMap = new HashMap<>(4);
+
+        
