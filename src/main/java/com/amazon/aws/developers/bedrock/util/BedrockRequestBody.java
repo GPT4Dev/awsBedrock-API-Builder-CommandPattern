@@ -237,4 +237,4 @@ class StabilityAICommand extends BedrockBodyCommand {
 
         Map<String, Object> jsonMap = new HashMap<>(4);
 
-        
+        jsonMap.put("text_prompts
