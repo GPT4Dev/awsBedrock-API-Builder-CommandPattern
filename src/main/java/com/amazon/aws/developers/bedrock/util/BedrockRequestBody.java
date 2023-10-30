@@ -240,4 +240,5 @@ class StabilityAICommand extends BedrockBodyCommand {
         jsonMap.put("text_prompts", new Map[] {
             Map.of("text", this.prompt)
         });
-        jsonMap.put("cfg_
+        jsonMap.put("cfg_scale", 10);
+        jsonMap.p
