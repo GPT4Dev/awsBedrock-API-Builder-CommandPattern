@@ -242,4 +242,6 @@ class StabilityAICommand extends BedrockBodyCommand {
         });
         jsonMap.put("cfg_scale", 10);
         jsonMap.put("seed", 0);
-        js
+        jsonMap.put("steps", 50);
+
+    
