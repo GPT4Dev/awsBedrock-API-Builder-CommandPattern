@@ -244,4 +244,4 @@ class StabilityAICommand extends BedrockBodyCommand {
         jsonMap.put("seed", 0);
         jsonMap.put("steps", 50);
 
-    
+        if (this.inferenceParameters != null && !this.
