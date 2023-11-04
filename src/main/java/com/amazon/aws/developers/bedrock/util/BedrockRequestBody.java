@@ -250,3 +250,4 @@ class StabilityAICommand extends BedrockBodyCommand {
         return new JSONObject(jsonMap).toString();
     }
 
+}
