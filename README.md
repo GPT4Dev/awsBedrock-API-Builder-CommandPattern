@@ -1,1 +1,3 @@
-# Amazon Bedrock API with Builder an
+# Amazon Bedrock API with Builder and Command Patterns
+
+[Amazon Be
