@@ -1,3 +1,3 @@
 # Amazon Bedrock API with Builder and Command Patterns
 
-[Amazon Bedrock](https://aws.amazon.com/bedrock) offers choice of high-performing foundation models from leading AI companies like AI21 Labs, Anthropic, Cohere, Stability AI, and Amazon through a single API. Despite the uniform API, each foun
+[Amazon Bedrock](https://aws.amazon.com/bedrock) offers choice of high-performing foundation models from leading AI companies like AI21 Labs, Anthropic, Cohere, Stability AI, and Amazon through a single API. Despite the uniform API, each foundation model has its unique schema, making AP
