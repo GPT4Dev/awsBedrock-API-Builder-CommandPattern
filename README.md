@@ -4,4 +4,4 @@
 
 For instance, let's consider the prompt: `When Christmas is celebrated?`
 
-Making API requests to Amazon Bedroc
+Making API requests to Amazon Bedrock using different foundation models 
