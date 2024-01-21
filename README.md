@@ -4,4 +4,4 @@
 
 For instance, let's consider the prompt: `When Christmas is celebrated?`
 
-Mak
+Making API requests to Amazon Bedroc
