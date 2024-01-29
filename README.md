@@ -4,4 +4,4 @@
 
 For instance, let's consider the prompt: `When Christmas is celebrated?`
 
-Making API requests to Amazon Bedrock using different foundation models 
+Making API requests to Amazon Bedrock using different foundation models would require distinct body payloads.
