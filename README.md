@@ -6,4 +6,4 @@ For instance, let's consider the prompt: `When Christmas is celebrated?`
 
 Making API requests to Amazon Bedrock using different foundation models would require distinct body payloads.
 
-This project offers a simple yet 
+This project offers a simple yet powerful implementation to ef
