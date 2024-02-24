@@ -6,4 +6,4 @@ For instance, let's consider the prompt: `When Christmas is celebrated?`
 
 Making API requests to Amazon Bedrock using different foundation models would require distinct body payloads.
 
-This project offers a simple yet powerful implementation to efficiently handle such API interactions. It utilizes the [Builder design pattern](https://en.wikipedia.org/wiki/Builder_pattern) and the [Com
+This project offers a simple yet powerful implementation to efficiently handle such API interactions. It utilizes the [Builder design pattern](https://en.wikipedia.org/wiki/Builder_pattern) and the [Command design pattern](https://
