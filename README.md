@@ -8,4 +8,4 @@ Making API requests to Amazon Bedrock using different foundation models would re
 
 This project offers a simple yet powerful implementation to efficiently handle such API interactions. It utilizes the [Builder design pattern](https://en.wikipedia.org/wiki/Builder_pattern) and the [Command design pattern](https://en.wikipedia.org/wiki/Command_pattern) to streamline the creation of body payloads. You can learn about using the code from the YouTube video below.
 
-[![Amazon Bedrock with Java](images/youtube.png)](http
+[![Amazon Bedrock with Java](images/youtube.png)](https://www.youtube.com/wa
