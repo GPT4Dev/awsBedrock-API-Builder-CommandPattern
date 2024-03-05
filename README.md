@@ -10,4 +10,6 @@ This project offers a simple yet powerful implementation to efficiently handle s
 
 [![Amazon Bedrock with Java](images/youtube.png)](https://www.youtube.com/watch?v=Vv2J8N0-eHc)
 
-## Usage of BedrockRequestBody implementati
+## Usage of BedrockRequestBody implementation
+
+BedrockRequestBody implementation provides a 
