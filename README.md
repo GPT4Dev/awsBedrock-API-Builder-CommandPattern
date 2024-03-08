@@ -12,4 +12,4 @@ This project offers a simple yet powerful implementation to efficiently handle s
 
 ## Usage of BedrockRequestBody implementation
 
-BedrockRequestBody implementation provides a simple way to create the body payloads without having to manually wr
+BedrockRequestBody implementation provides a simple way to create the body payloads without having to manually write them down. Here's how you
