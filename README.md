@@ -15,4 +15,5 @@ This project offers a simple yet powerful implementation to efficiently handle s
 BedrockRequestBody implementation provides a simple way to create the body payloads without having to manually write them down. Here's how you can use it:
 
 ```java
-String bedrockBody = BedrockRequestBody.bu
+String bedrockBody = BedrockRequestBody.builder()
+   .withModelId("ai21.j2-mi
