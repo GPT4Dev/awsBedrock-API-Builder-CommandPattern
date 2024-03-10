@@ -16,4 +16,5 @@ BedrockRequestBody implementation provides a simple way to create the body paylo
 
 ```java
 String bedrockBody = BedrockRequestBody.builder()
-   .withModelId("ai21.j2-mi
+   .withModelId("ai21.j2-mid-v1")
+   .withPrompt("When Christmas i
