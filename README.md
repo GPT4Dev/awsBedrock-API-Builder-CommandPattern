@@ -20,3 +20,5 @@ String bedrockBody = BedrockRequestBody.builder()
    .withPrompt("When Christmas is celebrated?")
    .build();
 ```
+
+And for `Anthropic Claude V2
