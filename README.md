@@ -24,4 +24,5 @@ String bedrockBody = BedrockRequestBody.builder()
 And for `Anthropic Claude V2` FM:
 
 ```java
-String bedrockBody = 
+String bedrockBody = BedrockRequestBody.builder()
+ 
