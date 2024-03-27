@@ -21,4 +21,7 @@ String bedrockBody = BedrockRequestBody.builder()
    .build();
 ```
 
-And for `Anthropic Claude V2
+And for `Anthropic Claude V2` FM:
+
+```java
+String bedrockBody = 
