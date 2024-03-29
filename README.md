@@ -25,4 +25,5 @@ And for `Anthropic Claude V2` FM:
 
 ```java
 String bedrockBody = BedrockRequestBody.builder()
-   .withModelId("anthropic.claud
+   .withModelId("anthropic.claude-v2")
+   .withPrompt("When
