@@ -31,3 +31,7 @@ String bedrockBody = BedrockRequestBody.builder()
 ```
 
 This approach simplifies interactions with Amazon Bedrock's API.
+
+## Security
+
+See [CONTRIBUTING](C
