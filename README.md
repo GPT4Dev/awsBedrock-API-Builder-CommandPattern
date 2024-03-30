@@ -30,4 +30,4 @@ String bedrockBody = BedrockRequestBody.builder()
    .build();
 ```
 
-This approach simplifies
+This approach simplifies interactions with Amazon Bedrock's API.
