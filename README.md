@@ -26,4 +26,4 @@ And for `Anthropic Claude V2` FM:
 ```java
 String bedrockBody = BedrockRequestBody.builder()
    .withModelId("anthropic.claude-v2")
-   .withPrompt("When
+   .withPrompt("When Christmas is celebrated?
