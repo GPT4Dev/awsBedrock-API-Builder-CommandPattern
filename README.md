@@ -34,4 +34,4 @@ This approach simplifies interactions with Amazon Bedrock's API.
 
 ## Security
 
-See [CONTRIBUTING](C
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue
