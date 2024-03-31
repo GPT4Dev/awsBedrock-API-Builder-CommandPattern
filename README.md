@@ -34,4 +34,6 @@ This approach simplifies interactions with Amazon Bedrock's API.
 
 ## Security
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## L
