@@ -36,4 +36,6 @@ This approach simplifies interactions with Amazon Bedrock's API.
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
-## L
+## License
+
+This project is licensed und
